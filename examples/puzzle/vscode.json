@@ -1,0 +1,10 @@
+{
+  "servers": {
+    "weather": {
+      "type": "stdio",
+      "command": "python",
+      "args": ["-m", "weather_mcp", "--units", "metric"],
+      "env": {"WEATHER_REGION": "${env:WEATHER_REGION}"}
+    }
+  }
+}

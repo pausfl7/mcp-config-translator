@@ -1,0 +1,13 @@
+{
+  "servers": {
+    "demo": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@example/readonly-mcp"],
+      "env": {
+        "LOG_LEVEL": "info",
+        "ACCESS_KEY": "${env:DEMO_ACCESS_KEY}"
+      }
+    }
+  }
+}

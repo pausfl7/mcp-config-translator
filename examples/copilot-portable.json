@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "demo": {
+      "command": "npx",
+      "args": ["-y", "@example/readonly-mcp"],
+      "env": {
+        "ACCESS_KEY": "${DEMO_ACCESS_KEY}",
+        "LOG_LEVEL": "info"
+      }
+    }
+  }
+}

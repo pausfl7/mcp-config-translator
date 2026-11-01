@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mcp-config-translator"
+version = "0.1.0"
+description = "Offline VS Code ↔ portable GitHub Copilot MCP stdio config converter with explicit loss reports"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "Contributors"}]
+keywords = ["mcp", "mcpServers", "vscode", "copilot", "config-migration", "offline"]
+classifiers = ["Programming Language :: Python :: 3", "License :: OSI Approved :: MIT License", "Operating System :: OS Independent"]
+dependencies = []
+
+[project.scripts]
+mcp-config-translator = "mcp_config_translator.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

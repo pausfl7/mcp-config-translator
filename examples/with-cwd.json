@@ -1,0 +1,10 @@
+{
+  "servers": {
+    "local": {
+      "type": "stdio",
+      "command": "C:\\Program Files\\Tools\\mcp-server.exe",
+      "args": ["--data", "C:\\Users\\Example User\\Documents\\Shared Data"],
+      "cwd": "C:\\Users\\Example User\\Documents\\Shared Data"
+    }
+  }
+}

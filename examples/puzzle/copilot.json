@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "weather": {
+      "command": "python",
+      "args": ["-m", "weather_mcp", "--units", "imperial"],
+      "env": {"WEATHER_REGION": "${WEATHER_REGION}"}
+    }
+  }
+}
